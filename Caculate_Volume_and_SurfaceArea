@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+	int length, width, height, surface, volume;
+	scanf("%d",&length);
+	scanf("%d",&width);
+	scanf("%d",&height);
+	surface = (width * height * 2) + (width * length * 2) + (length * height * 2);
+	volume = length *width * height;
+	printf("%d", surface);
+	printf(" ");
+	printf("%d", volume);
+	return (0);
+}
